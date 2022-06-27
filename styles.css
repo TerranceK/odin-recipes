@@ -1,17 +1,46 @@
-.main-div{
+body{
+    padding: 2px 2px 2px ppx;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text-div,
+.image-div{
     width: 30pc;
     margin: auto;
     text-align: center;
     border: 3px solid blue;
+    background-color:aliceblue;
+    padding: 20px;
 }
-img{
+
+.page-control{
+    border: 3px solid blue;
     width: 30pc;
+    margin:auto;
+    margin-top: 30px;
+    text-align: center;
+    padding: 5px;
 }
+
+button{
+    display: inline;
+    width: 9pc;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px;
+    font-family: fantasy, sans-serif;
+}
+
+img{
+    width: inherit;
+}
+
 hr{
     background-color:blue;
     height: 1px;
     border: none;
 }
+
 ul,
 ol{
     text-align: left;
